@@ -5,7 +5,7 @@ test('User can log in successfully', async ({page})=>{
     const loginPage = new LoginPage(page);
 
     await loginPage.navigate();
-    await loginPage.login('claudia.niemeier@example.com', 'ixiKRjGTws2zDYiHU5nfLYBz2fzSGCvK');
+    await loginPage.login('lion@test.com', 'password12xxl');
 
     await expect(page.locator('h1.display-1.m-5:has-text("tech11")')).toBeVisible();
 
