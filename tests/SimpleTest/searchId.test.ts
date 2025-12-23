@@ -1,5 +1,5 @@
 import{test, expect} from '@playwright/test';
-import{login} from './utils/login'
+import{login} from '../utils/login'
 
 test.describe('Login Tests', () => {
     test('Filter by username', async({page})=>{// Use of search
