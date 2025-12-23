@@ -2,10 +2,7 @@ import{test, expect } from '@playwright/test';
 import { DashboardPage} from '../pages/DashboardPage';
 import { login } from '../utils/login';
 import { CarRiskobject } from '../pages/carRiskobject';
-//Imports
-//Test definition (what scenario)
-//Setup / Arrange (create page objects)
-//Steps / Actions / Assertions (the user journey)
+
 
 test.describe('car Risk Object creation',()=>{
     test('user create car risk Object', async({page})=>{
